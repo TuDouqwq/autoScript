@@ -46,3 +46,6 @@ dependencyResolutionManagement {
 rootProject.name = "autoScript"
 include ':app'
 include ':auto'
+include ':tflite'
+include ':opencv'
+include ':mlkit'

@@ -1,0 +1,5 @@
+com.lun.tflite.BuildConfig
+com.lun.tflite.Recognition:
+    public void setConfidence(java.lang.Float)
+    public void setLabelId(int)
+    public void setLabelScore(java.lang.Float)

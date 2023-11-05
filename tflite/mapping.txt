@@ -1,0 +1,98 @@
+# compiler: R8
+# compiler_version: 4.0.52
+# common_typos_disable
+# {"id":"com.android.tools.r8.mapping","version":"2.1"}
+# pg_map_id: 93aa9fe
+# pg_map_hash: SHA-256 93aa9fe60f8661e4c696362c20b472c8ebddd0f96ce331121b8871d6ba1e776a
+com.lun.tflite.Recognition -> com.lun.tflite.a:
+    android.graphics.RectF location -> e
+    java.lang.Float labelScore -> c
+    java.lang.String labelName -> b
+    java.lang.Float confidence -> d
+    java.lang.Integer labelId -> a
+    1:6:void <init>(int,java.lang.String,java.lang.Float,java.lang.Float,android.graphics.RectF):23:28 -> <init>
+    1:1:java.lang.Float getConfidence():42:42 -> a
+    2:2:void setLocation(android.graphics.RectF):50:50 -> a
+    3:3:void setLabelName(java.lang.String):53:53 -> a
+    1:1:java.lang.Integer getLabelId():32:32 -> b
+    1:1:java.lang.String getLabelName():36:36 -> c
+    1:1:java.lang.Float getLabelScore():39:39 -> d
+    1:1:android.graphics.RectF getLocation():46:46 -> e
+    1:15:java.lang.String toString():69:83 -> toString
+com.lun.tflite.TFLiteDetector -> com.lun.tflite.TFLiteDetector:
+# {"id":"sourceFile","fileName":"TFLiteDetector.kt"}
+    1:1:void <clinit>():45:45 -> <clinit>
+    1:1:java.util.List access$getAssociatedAxisLabels$cp():35:35 -> access$getAssociatedAxisLabels$cp
+    1:1:org.tensorflow.lite.support.metadata.MetadataExtractor$QuantizationParams access$getInputINT8Params$cp():35:35 -> access$getInputINT8Params$cp
+    1:1:android.util.Size access$getInputSize$cp():35:35 -> access$getInputSize$cp
+    1:1:org.tensorflow.lite.Interpreter$Options access$getOptions$cp():35:35 -> access$getOptions$cp
+    1:1:org.tensorflow.lite.support.metadata.MetadataExtractor$QuantizationParams access$getOutputINT8Params$cp():35:35 -> access$getOutputINT8Params$cp
+    1:1:int[] access$getOutputSize$cp():35:35 -> access$getOutputSize$cp
+    1:1:org.tensorflow.lite.Interpreter access$getTflite$cp():35:35 -> access$getTflite$cp
+    1:1:boolean access$getUSE_INT8$cp():35:35 -> access$getUSE_INT8$cp
+    1:1:void access$setAssociatedAxisLabels$cp(java.util.List):35:35 -> access$setAssociatedAxisLabels$cp
+    1:1:void access$setInputINT8Params$cp(org.tensorflow.lite.support.metadata.MetadataExtractor$QuantizationParams):35:35 -> access$setInputINT8Params$cp
+    1:1:void access$setInputSize$cp(android.util.Size):35:35 -> access$setInputSize$cp
+    1:1:void access$setOutputINT8Params$cp(org.tensorflow.lite.support.metadata.MetadataExtractor$QuantizationParams):35:35 -> access$setOutputINT8Params$cp
+    1:1:void access$setOutputSize$cp(int[]):35:35 -> access$setOutputSize$cp
+    1:1:void access$setTflite$cp(org.tensorflow.lite.Interpreter):35:35 -> access$setTflite$cp
+    1:1:void access$setUSE_INT8$cp(boolean):35:35 -> access$setUSE_INT8$cp
+com.lun.tflite.TFLiteDetector$Companion -> com.lun.tflite.TFLiteDetector$Companion:
+# {"id":"sourceFile","fileName":"TFLiteDetector.kt"}
+    1:1:java.lang.Object access$detect(com.lun.tflite.TFLiteDetector$Companion,android.graphics.Bitmap,kotlin.coroutines.Continuation):36:36 -> access$detect
+    1:9:void addGPUDelegate():191:199 -> addGPUDelegate
+    1:2:void addThread(int):208:209 -> addThread
+    1:29:java.lang.Object detect(android.graphics.Bitmap,kotlin.coroutines.Continuation):97:125 -> detect
+    30:125:java.lang.Object detect(android.graphics.Bitmap,kotlin.coroutines.Continuation):123:218 -> detect
+    126:164:java.lang.Object detect(android.graphics.Bitmap,kotlin.coroutines.Continuation):183:183 -> detect
+    203:203:java.lang.Object detect(android.graphics.Bitmap,kotlin.coroutines.Continuation):222:222 -> detect
+    204:206:java.lang.Object detect(android.graphics.Bitmap,kotlin.coroutines.Continuation):183:185 -> detect
+    207:207:java.lang.Object detect(android.graphics.Bitmap,kotlin.coroutines.Continuation):103:103 -> detect
+    208:208:java.lang.Object detect(android.graphics.Bitmap,kotlin.coroutines.Continuation):101:101 -> detect
+    209:209:java.lang.Object detect(android.graphics.Bitmap,kotlin.coroutines.Continuation):100:100 -> detect
+    210:210:java.lang.Object detect(android.graphics.Bitmap,kotlin.coroutines.Continuation):99:99 -> detect
+    211:211:java.lang.Object detect(android.graphics.Bitmap,kotlin.coroutines.Continuation):98:98 -> detect
+    1:14:void loadTFlite(java.lang.String,java.lang.String,android.content.Context):49:62 -> loadTFlite
+    15:29:void loadTFlite(java.lang.String,java.lang.String,android.content.Context):60:74 -> loadTFlite
+    30:30:void loadTFlite(java.lang.String,java.lang.String,android.content.Context):72:72 -> loadTFlite
+    1:1:java.lang.Object specificDetection(android.graphics.Bitmap,java.lang.String,double,kotlin.coroutines.Continuation):79:79 -> specificDetection
+    2:2:java.lang.Object specificDetection$default(com.lun.tflite.TFLiteDetector$Companion,android.graphics.Bitmap,java.lang.String[],double,kotlin.coroutines.Continuation,int,java.lang.Object):82:82 -> specificDetection
+    2:2:java.lang.Object specificDetection(android.graphics.Bitmap,java.lang.String[],double,kotlin.coroutines.Continuation):82 -> specificDetection
+    3:5:java.lang.Object specificDetection(android.graphics.Bitmap,java.lang.String[],double,kotlin.coroutines.Continuation):84:86 -> specificDetection
+    6:6:java.lang.Object specificDetection$default(com.lun.tflite.TFLiteDetector$Companion,android.graphics.Bitmap,java.lang.String[],double,kotlin.coroutines.Continuation,int,java.lang.Object):82:82 -> specificDetection
+    6:6:java.lang.Object specificDetection(android.graphics.Bitmap,java.lang.String[],double,kotlin.coroutines.Continuation):82 -> specificDetection
+    7:7:java.lang.Object specificDetection(android.graphics.Bitmap,java.lang.String[],double,kotlin.coroutines.Continuation):213:213 -> specificDetection
+    8:136:java.lang.Object specificDetection(android.graphics.Bitmap,java.lang.String[],double,kotlin.coroutines.Continuation):87:215 -> specificDetection
+    137:143:java.lang.Object specificDetection(android.graphics.Bitmap,java.lang.String[],double,kotlin.coroutines.Continuation):88:94 -> specificDetection
+    144:144:java.lang.Object specificDetection(android.graphics.Bitmap,java.lang.String[],double,kotlin.coroutines.Continuation):83:83 -> specificDetection
+    1:1:java.lang.Object specificDetection$default(com.lun.tflite.TFLiteDetector$Companion,android.graphics.Bitmap,java.lang.String,double,kotlin.coroutines.Continuation,int,java.lang.Object):78:78 -> specificDetection$default
+    2:2:java.lang.Object specificDetection$default(com.lun.tflite.TFLiteDetector$Companion,android.graphics.Bitmap,java.lang.String[],double,kotlin.coroutines.Continuation,int,java.lang.Object):82:82 -> specificDetection$default
+com.lun.tflite.TFLiteDetector$Companion$detect$1 -> com.lun.tflite.TFLiteDetector$Companion$detect$1:
+# {"id":"sourceFile","fileName":"TFLiteDetector.kt"}
+com.lun.tflite.TFLiteDetector$Companion$specificDetection$2 -> com.lun.tflite.TFLiteDetector$Companion$specificDetection$2:
+# {"id":"sourceFile","fileName":"TFLiteDetector.kt"}
+com.lun.tflite.TFLiteUtils -> com.lun.tflite.TFLiteUtils:
+# {"id":"sourceFile","fileName":"TFLiteUtils.kt"}
+com.lun.tflite.TFLiteUtils$Companion -> com.lun.tflite.TFLiteUtils$Companion:
+# {"id":"sourceFile","fileName":"TFLiteUtils.kt"}
+    1:4:float boxIntersection(android.graphics.RectF,android.graphics.RectF):320:323 -> boxIntersection
+    1:2:float boxIou(android.graphics.RectF,android.graphics.RectF):311:312 -> boxIou
+    1:2:float boxUnion(android.graphics.RectF,android.graphics.RectF):330:331 -> boxUnion
+    1:34:android.graphics.Bitmap createLetterboxedBitmap(android.graphics.Bitmap,android.util.Size):149:182 -> createLetterboxedBitmap
+    35:40:android.graphics.Bitmap createLetterboxedBitmap(android.graphics.Bitmap,android.util.Size):180:185 -> createLetterboxedBitmap
+    1:9:android.graphics.Bitmap drawRectOnBitmap(android.graphics.Bitmap,android.graphics.RectF):16:24 -> drawRectOnBitmap
+    1:24:android.graphics.Bitmap letterbox(android.graphics.Bitmap,android.util.Size):193:216 -> letterbox
+    25:31:android.graphics.Bitmap letterbox(android.graphics.Bitmap,android.util.Size):213:219 -> letterbox
+    1:29:android.graphics.Bitmap letterboxBitmap(android.graphics.Bitmap,android.util.Size):109:137 -> letterboxBitmap
+    30:37:android.graphics.Bitmap letterboxBitmap(android.graphics.Bitmap,android.util.Size):134:141 -> letterboxBitmap
+    1:27:android.graphics.Point mapPointToBitmap(android.graphics.Point,android.graphics.Bitmap,android.util.Size):33:59 -> mapPointToBitmap
+    1:29:android.graphics.Rect mapRectToBitmap(android.graphics.Rect,android.graphics.Bitmap,android.util.Size):68:96 -> mapRectToBitmap
+    1:7:java.util.ArrayList nms(java.util.ArrayList,int[]):223:229 -> nms
+    8:116:java.util.ArrayList nms(java.util.ArrayList,int[]):228:336 -> nms
+    117:126:java.util.ArrayList nms(java.util.ArrayList,int[]):245:254 -> nms
+    127:132:java.util.ArrayList nms(java.util.ArrayList,int[]):252:257 -> nms
+    1:1:int nms$lambda$1(com.lun.tflite.Recognition,com.lun.tflite.Recognition):232:232 -> nms$lambda$1
+    1:4:java.util.ArrayList nmsAllClass(java.util.ArrayList):272:275 -> nmsAllClass
+    5:31:java.util.ArrayList nmsAllClass(java.util.ArrayList):274:300 -> nmsAllClass
+    32:37:java.util.ArrayList nmsAllClass(java.util.ArrayList):298:303 -> nmsAllClass
+    1:1:int nmsAllClass$lambda$2(com.lun.tflite.Recognition,com.lun.tflite.Recognition):278:278 -> nmsAllClass$lambda$2

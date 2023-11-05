@@ -1,0 +1,11 @@
+<resources>
+    <string name="dialog_ok">确认</string>
+    <string name="dialog_prompt">提示</string>
+    <string name="accessibility_desc">用于自动点击</string>
+    <string name="media_start">AutoScript保持运行中</string>
+
+    <string-array name="debugkit_themes">
+        <item>Dark</item>
+        <item>Light</item>
+    </string-array>
+</resources>

@@ -1,0 +1,48 @@
+pluginManagement {
+    repositories {
+        maven { url 'https://maven.aliyun.com/repository/google' }
+        maven { url 'https://maven.aliyun.com/repository/public' }
+
+        google()
+        mavenCentral()
+        gradlePluginPortal()
+    }
+}
+dependencyResolutionManagement {
+    repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
+    repositories {
+        maven { url 'https://maven.aliyun.com/repository/google' }
+        maven { url 'https://maven.aliyun.com/repository/public' }
+
+        google()
+        mavenCentral()
+
+        // 添加jitpack仓库
+        maven { url 'https://jitpack.io' }
+        // 扫描是否有需要的jar包或arr包
+        flatDir {
+            dirs 'libs'
+        }
+
+        maven {
+            url 'https://maven.aliyun.com/repository/public'
+        }
+        maven {
+            credentials {
+                username '64254496e37ceb0d14c4a8ef'
+                password 'noayXHWiHEQz'
+            }
+            url 'https://packages.aliyun.com/maven/repository/2358802-release-5k85Se/'
+        }
+        maven {
+            credentials {
+                username '64254496e37ceb0d14c4a8ef'
+                password 'noayXHWiHEQz'
+            }
+            url 'https://packages.aliyun.com/maven/repository/2358802-snapshot-BIdMmd/'
+        }
+    }
+}
+rootProject.name = "autoScript"
+include ':app'
+include ':auto'

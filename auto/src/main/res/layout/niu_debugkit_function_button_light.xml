@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Button android:id="@+id/tools_button"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/toolsButton.light"
+    android:background="@drawable/rounded_button_light"
+    android:textAllCaps="false"
+    tools:text="F1" />

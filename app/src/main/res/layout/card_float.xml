@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/c"
+    android:background="@drawable/float_view_bg"
+    android:clickable="true"
+    android:gravity="center"
+    android:paddingLeft="5dp"
+    android:paddingTop="5dp"
+    android:paddingRight="5dp"
+    android:paddingBottom="5dp"
+    android:focusable="true">
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:background="@drawable/lun_circle"
+        android:clickable="true"
+        android:padding="2dp"
+        android:scaleType="centerCrop"
+        android:focusable="true" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:visibility="visible">
+
+        <ImageView
+            android:id="@+id/runScript"
+            android:layout_width="38dp"
+            android:layout_height="35dp"
+            android:layout_marginStart="5dp"
+            android:padding="8dp"
+            android:scaleType="centerInside"
+            android:src="@drawable/fm_float_play" />
+
+<!--        <ImageView-->
+<!--            android:id="@+id/next"-->
+<!--            android:layout_width="38dp"-->
+<!--            android:layout_height="35dp"-->
+<!--            android:padding="8dp"-->
+<!--            android:scaleType="centerInside"-->
+<!--            android:src="@mipmap/icon_float_next1" />-->
+
+<!--        <ImageView-->
+<!--            android:id="@+id/down"-->
+<!--            android:layout_width="38dp"-->
+<!--            android:layout_height="35dp"-->
+<!--            android:padding="8dp"-->
+<!--            android:scaleType="centerInside"-->
+<!--            android:src="@mipmap/icon_float_all1" />-->
+    </LinearLayout>
+</LinearLayout>

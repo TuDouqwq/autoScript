@@ -1,0 +1,722 @@
+# compiler: R8
+# compiler_version: 4.0.52
+# common_typos_disable
+# {"id":"com.android.tools.r8.mapping","version":"2.1"}
+# pg_map_id: 2c76351
+# pg_map_hash: SHA-256 2c763512f96c6bfafa2b74c8749d6777299bc075033c2bc8f6030e03df8ba8ab
+com.lun.auto.NiuApp -> com.lun.auto.NiuApp:
+# {"id":"sourceFile","fileName":"NiuApp.kt"}
+com.lun.auto.NiuApp$Companion -> com.lun.auto.NiuApp$Companion:
+# {"id":"sourceFile","fileName":"NiuApp.kt"}
+    1:1:android.app.Application getINS():14:14 -> getINS
+    1:1:androidx.activity.ComponentActivity getNiuComponentActivity():15:15 -> getNiuComponentActivity
+    1:1:void initAppCompatActivity(androidx.activity.ComponentActivity):25:25 -> initAppCompatActivity
+    1:4:void initApplication(android.app.Application):18:21 -> initApplication
+    1:1:void setINS(android.app.Application):14:14 -> setINS
+    1:1:void setNiuComponentActivity(androidx.activity.ComponentActivity):15:15 -> setNiuComponentActivity
+com.lun.auto.accessibility.UiSelector -> com.lun.auto.accessibility.UiSelector:
+# {"id":"sourceFile","fileName":"ui_global_selector_api.kt"}
+    1:1:void <init>(com.lun.auto.accessibility.UiSelectorType,java.lang.String):14:14 -> <init>
+    1:1:com.lun.auto.accessibility.UiSelectorType getType():14:14 -> getType
+    1:1:java.lang.String getValue():14:14 -> getValue
+com.lun.auto.accessibility.UiSelectorType -> com.lun.auto.accessibility.UiSelectorType:
+# {"id":"sourceFile","fileName":"ui_global_selector_api.kt"}
+    1:5:void <clinit>():7:11 -> <clinit>
+    1:1:void <init>(java.lang.String,int):6:6 -> <init>
+com.lun.auto.accessibility.gesture_api -> com.lun.auto.accessibility.gesture_api:
+# {"id":"sourceFile","fileName":"gesture_api.kt"}
+    1:1:boolean click(int,int):15:15 -> click
+    2:5:void click(android.view.accessibility.AccessibilityNodeInfo,long):75:78 -> click
+    1:1:void click$default(android.view.accessibility.AccessibilityNodeInfo,long,int,java.lang.Object):74:74 -> click$default
+    1:17:boolean executeGesture(android.accessibilityservice.GestureDescription):49:65 -> executeGesture
+    1:1:void executeGesture$lambda$1(android.accessibilityservice.GestureDescription,com.lun.auto.accessibility.gesture_api$executeGesture$callback$1):62:62 -> executeGesture$lambda$1
+    1:1:android.graphics.Rect getBounds(android.view.accessibility.AccessibilityNodeInfo):69:69 -> getBounds
+    2:2:android.graphics.Rect getBounds(android.view.accessibility.AccessibilityWindowInfo):72:72 -> getBounds
+    1:4:void longClick(android.view.accessibility.AccessibilityNodeInfo):83:86 -> longClick
+    1:1:boolean press(android.graphics.Rect,long):17:17 -> press
+    2:7:boolean press(int,int,long):20:25 -> press
+    8:8:boolean press(double,double,long):29:29 -> press
+    9:11:void press(android.view.accessibility.AccessibilityNodeInfo,long,int,int,int,int):97:99 -> press
+    1:1:void press$default(android.view.accessibility.AccessibilityNodeInfo,long,int,int,int,int,int,java.lang.Object):90:90 -> press$default
+    1:7:boolean swipe(int,int,int,int,long):39:45 -> swipe
+com.lun.auto.accessibility.gesture_api$executeGesture$callback$1 -> com.lun.auto.accessibility.gesture_api$executeGesture$callback$1:
+# {"id":"sourceFile","fileName":"gesture_api.kt"}
+    1:1:void <init>(java.util.concurrent.CompletableFuture):51:51 -> <init>
+    1:1:void onCancelled(android.accessibilityservice.GestureDescription):57:57 -> onCancelled
+    1:1:void onCompleted(android.accessibilityservice.GestureDescription):53:53 -> onCompleted
+com.lun.auto.accessibility.global_fun_api -> com.lun.auto.accessibility.global_fun_api:
+# {"id":"sourceFile","fileName":"global_fun_api.kt"}
+    1:1:java.lang.Object await(kotlinx.coroutines.Job,kotlin.coroutines.Continuation):62:62 -> await
+    1:1:java.lang.String currentActivity():60:60 -> currentActivity
+    1:1:java.lang.String currentPackage():58:58 -> currentPackage
+    1:1:void exit():34:34 -> exit
+    1:4:boolean isAccessibilityServiceEnabled():70:73 -> isAccessibilityServiceEnabled
+    5:33:boolean isAccessibilityServiceEnabled():72:100 -> isAccessibilityServiceEnabled
+    34:34:boolean isAccessibilityServiceEnabled():99:99 -> isAccessibilityServiceEnabled
+    35:61:boolean isAccessibilityServiceEnabled():79:105 -> isAccessibilityServiceEnabled
+    62:62:boolean isAccessibilityServiceEnabled():80:80 -> isAccessibilityServiceEnabled
+    1:3:void jumpToSettingPage():87:89 -> jumpToSettingPage
+    1:3:void launch(java.lang.String):52:54 -> launch
+    1:2:void log(java.lang.Object,boolean):19:20 -> log
+    3:3:void log(java.lang.Throwable):24:24 -> log
+    1:1:void log$default(java.lang.Object,boolean,int,java.lang.Object):18:18 -> log$default
+    1:11:void restartApp():37:47 -> restartApp
+com.lun.auto.accessibility.nav_api -> com.lun.auto.accessibility.nav_api:
+# {"id":"sourceFile","fileName":"nav_api.kt"}
+    1:1:boolean accessibilityShortcut():67:67 -> accessibilityShortcut
+    1:1:boolean back():10:10 -> back
+    1:1:boolean home():13:13 -> home
+    1:1:boolean lockScreen():29:29 -> lockScreen
+    1:1:boolean modeHidden():17:17 -> modeHidden
+    1:1:boolean notificationBar():38:38 -> notificationBar
+    1:1:boolean notificationShade():72:72 -> notificationShade
+    1:1:boolean powerDialog():21:21 -> powerDialog
+    1:1:boolean quickSettings():25:25 -> quickSettings
+    1:1:boolean recent():42:42 -> recent
+    1:1:boolean screenShot():34:34 -> screenShot
+    1:1:boolean splitScreen():46:46 -> splitScreen
+    1:1:boolean swipeDown():50:50 -> swipeDown
+    1:1:boolean swipeLeft():54:54 -> swipeLeft
+    1:1:boolean swipeRight():62:62 -> swipeRight
+    1:1:boolean swipeUp():58:58 -> swipeUp
+com.lun.auto.accessibility.ui_global_selector_api -> com.lun.auto.accessibility.ui_global_selector_api:
+# {"id":"sourceFile","fileName":"ui_global_selector_api.kt"}
+    1:1:com.lun.auto.accessibility.UiSelector className(java.lang.String):25:25 -> className
+    1:1:com.lun.auto.accessibility.UiSelector desc(java.lang.String):33:33 -> desc
+    1:1:java.lang.CharSequence getStr(android.view.accessibility.AccessibilityNodeInfo):37:37 -> getStr
+    1:1:com.lun.auto.accessibility.UiSelector id(java.lang.String):29:29 -> id
+    1:1:com.lun.auto.accessibility.UiSelector text(java.lang.String):17:17 -> text
+    1:1:com.lun.auto.accessibility.UiSelector textLike(java.lang.String):21:21 -> textLike
+com.lun.auto.accessibility.view_finder_api -> com.lun.auto.accessibility.view_finder_api:
+# {"id":"sourceFile","fileName":"view_finder_api.kt"}
+    1:126:java.util.List find(com.lun.auto.accessibility.UiSelector,java.lang.Integer,boolean):17:142 -> find
+    127:142:java.util.List find(com.lun.auto.accessibility.UiSelector,java.lang.Integer,boolean):23:38 -> find
+    1:1:java.util.List find$default(com.lun.auto.accessibility.UiSelector,java.lang.Integer,boolean,int,java.lang.Object):12:12 -> find$default
+    1:1:java.lang.Object findOnce$default(com.lun.auto.accessibility.UiSelector,int,boolean,boolean,kotlin.coroutines.Continuation,int,java.lang.Object):98:98 -> findOnce
+    1:1:java.lang.Object findOnce(com.lun.auto.accessibility.UiSelector,int,boolean,boolean,kotlin.coroutines.Continuation):98 -> findOnce
+    2:9:java.lang.Object findOnce(com.lun.auto.accessibility.UiSelector,int,boolean,boolean,kotlin.coroutines.Continuation):105:112 -> findOnce
+    1:1:java.lang.Object findOnce$default(com.lun.auto.accessibility.UiSelector,int,boolean,boolean,kotlin.coroutines.Continuation,int,java.lang.Object):98:98 -> findOnce$default
+    1:1:java.lang.Object findOne$default(com.lun.auto.accessibility.UiSelector,java.lang.Long,boolean,kotlin.coroutines.Continuation,int,java.lang.Object):84:84 -> findOne
+    1:1:java.lang.Object findOne(com.lun.auto.accessibility.UiSelector,java.lang.Long,boolean,kotlin.coroutines.Continuation):84 -> findOne
+    2:8:java.lang.Object findOne(com.lun.auto.accessibility.UiSelector,java.lang.Long,boolean,kotlin.coroutines.Continuation):88:94 -> findOne
+    1:1:java.lang.Object findOne$default(com.lun.auto.accessibility.UiSelector,java.lang.Long,boolean,kotlin.coroutines.Continuation,int,java.lang.Object):84:84 -> findOne$default
+    1:1:boolean input(int,java.lang.String,boolean):140:140 -> input
+    1:1:boolean input$default(int,java.lang.String,boolean,int,java.lang.Object):139:139 -> input$default
+    1:12:void isType(android.view.accessibility.AccessibilityNodeInfo,com.lun.auto.accessibility.UiSelector,java.util.List):68:79 -> isType
+    13:15:void isType(android.view.accessibility.AccessibilityNodeInfo,com.lun.auto.accessibility.UiSelector,java.util.List):76:76 -> isType
+    17:17:void isType(android.view.accessibility.AccessibilityNodeInfo,com.lun.auto.accessibility.UiSelector,java.util.List):78:78 -> isType
+    18:18:void isType(android.view.accessibility.AccessibilityNodeInfo,com.lun.auto.accessibility.UiSelector,java.util.List):75:75 -> isType
+    19:21:void isType(android.view.accessibility.AccessibilityNodeInfo,com.lun.auto.accessibility.UiSelector,java.util.List):71:73 -> isType
+    22:34:void isType(android.view.accessibility.AccessibilityNodeInfo,com.lun.auto.accessibility.UiSelector,java.util.List):69:81 -> isType
+    1:1:void isType$default(android.view.accessibility.AccessibilityNodeInfo,com.lun.auto.accessibility.UiSelector,java.util.List,int,java.lang.Object):62:62 -> isType$default
+    1:9:void recursiveFind(android.view.accessibility.AccessibilityNodeInfo,java.lang.Integer,com.lun.auto.accessibility.UiSelector,java.util.List):47:55 -> recursiveFind
+    1:1:void recursiveFind$default(android.view.accessibility.AccessibilityNodeInfo,java.lang.Integer,com.lun.auto.accessibility.UiSelector,java.util.List,int,java.lang.Object):41:41 -> recursiveFind$default
+    1:7:boolean setText(int,java.lang.CharSequence,boolean,boolean):125:131 -> setText
+    8:13:boolean setText(int,java.lang.CharSequence,boolean,boolean):129:134 -> setText
+    1:1:boolean setText$default(int,java.lang.CharSequence,boolean,boolean,int,java.lang.Object):118:118 -> setText$default
+com.lun.auto.accessibility.view_finder_api$WhenMappings -> com.lun.auto.accessibility.view_finder_api$WhenMappings:
+# {"id":"sourceFile","fileName":"view_finder_api.kt"}
+com.lun.auto.accessibility.view_finder_api$findOnce$1 -> com.lun.auto.accessibility.view_finder_api$findOnce$1:
+# {"id":"sourceFile","fileName":"view_finder_api.kt"}
+com.lun.auto.accessibility.view_finder_api$findOne$1 -> com.lun.auto.accessibility.view_finder_api$findOne$1:
+# {"id":"sourceFile","fileName":"view_finder_api.kt"}
+com.lun.auto.console.NiuConsole -> com.lun.auto.console.NiuConsole:
+# {"id":"sourceFile","fileName":"NiuConsole.kt"}
+    1:1:void <clinit>():16:16 -> <clinit>
+    1:1:void <init>(android.content.Context):40:40 -> <init>
+    2:5:void <init>(android.content.Context):30:33 -> <init>
+    6:6:void <init>(android.content.Context,android.util.AttributeSet):42:42 -> <init>
+    7:10:void <init>(android.content.Context,android.util.AttributeSet):30:33 -> <init>
+    11:11:void <init>(android.content.Context,android.util.AttributeSet,int):44:44 -> <init>
+    12:15:void <init>(android.content.Context,android.util.AttributeSet,int):30:33 -> <init>
+    16:16:void <init>(android.content.Context,android.util.AttributeSet,int,int):46:46 -> <init>
+    17:20:void <init>(android.content.Context,android.util.AttributeSet,int,int):30:33 -> <init>
+    1:1:com.lun.auto.console.NiuConsoleController access$getController$cp():13:13 -> access$getController$cp
+    1:1:void onMeasure(int,int):49:49 -> onMeasure
+    1:1:void printScroll$auto_release():37:37 -> printScroll$auto_release
+com.lun.auto.console.NiuConsole$Companion -> com.lun.auto.console.NiuConsole$Companion:
+# {"id":"sourceFile","fileName":"NiuConsole.kt"}
+    1:1:void consoleLog(java.lang.CharSequence):19:19 -> consoleLog
+    1:1:com.lun.auto.console.NiuConsoleController getController$auto_release():16:16 -> getController$auto_release
+    1:1:void showConsole():23:23 -> showConsole
+com.lun.auto.console.NiuConsoleController -> com.lun.auto.console.NiuConsoleController:
+# {"id":"sourceFile","fileName":"NiuConsoleController.kt"}
+    1:9:void <init>():10:18 -> <init>
+    1:1:void access$runBufferPrint(com.lun.auto.console.NiuConsoleController):10:10 -> access$runBufferPrint
+    1:1:void add(com.lun.auto.console.NiuConsole):23:23 -> add
+    1:1:android.os.Handler getPrintBufferHandler():13:13 -> getPrintBufferHandler
+    1:1:boolean isUIThread():16:16 -> isUIThread
+    1:5:void print(android.widget.TextView):36:36 -> print
+    1:1:void printTo(android.widget.TextView):32:32 -> printTo
+    1:14:void runBufferPrint():43:56 -> runBufferPrint
+    1:2:void writeLine(java.lang.CharSequence):27:28 -> writeLine
+com.lun.auto.console.NiuConsoleController$Companion -> com.lun.auto.console.NiuConsoleController$Companion:
+# {"id":"sourceFile","fileName":"NiuConsoleController.kt"}
+com.lun.auto.console.NiuConsoleController$PrintBufferHandler -> com.lun.auto.console.NiuConsoleController$PrintBufferHandler:
+# {"id":"sourceFile","fileName":"NiuConsoleController.kt"}
+    1:1:void <init>(com.lun.auto.console.NiuConsoleController):61:61 -> <init>
+    1:1:com.lun.auto.console.NiuConsoleController getController():61:61 -> getController
+    1:2:void handleMessage(android.os.Message):63:64 -> handleMessage
+com.lun.auto.console.NiuConsoleController$printBufferHandler$2 -> com.lun.auto.console.NiuConsoleController$printBufferHandler$2:
+# {"id":"sourceFile","fileName":"NiuConsoleController.kt"}
+    1:1:com.lun.auto.console.NiuConsoleController$PrintBufferHandler invoke():13:13 -> invoke
+    2:2:java.lang.Object invoke():13:13 -> invoke
+com.lun.auto.console.NiuDevConsole -> com.lun.auto.console.NiuDevConsole:
+# {"id":"sourceFile","fileName":"NiuDevConsole.kt"}
+    1:13:void <clinit>():37:49 -> <clinit>
+    1:1:androidx.activity.ComponentActivity access$getActivity$cp():35:35 -> access$getActivity$cp
+    1:1:int access$getConsoleHeight$cp():35:35 -> access$getConsoleHeight$cp
+    1:1:android.widget.ScrollView access$getConsoleScrollView$cp():35:35 -> access$getConsoleScrollView$cp
+    1:1:int access$getConsoleTextSize$cp():35:35 -> access$getConsoleTextSize$cp
+    1:1:int access$getConsoleWidth$cp():35:35 -> access$getConsoleWidth$cp
+    1:1:com.lun.auto.console.NiuDevTheme access$getTheme$cp():35:35 -> access$getTheme$cp
+    1:1:android.widget.TextView access$getTvConsole$cp():35:35 -> access$getTvConsole$cp
+    1:1:void access$setConsoleScrollView$cp(android.widget.ScrollView):35:35 -> access$setConsoleScrollView$cp
+    1:1:void access$setTvConsole$cp(android.widget.TextView):35:35 -> access$setTvConsole$cp
+com.lun.auto.console.NiuDevConsole$Companion -> com.lun.auto.console.NiuDevConsole$Companion:
+# {"id":"sourceFile","fileName":"NiuDevConsole.kt"}
+    1:12:void applyTheme():229:240 -> applyTheme
+    1:47:void devConsole(kotlin.jvm.functions.Function0):66:112 -> devConsole
+    1:1:void devConsole$default(com.lun.auto.console.NiuDevConsole$Companion,kotlin.jvm.functions.Function0,int,java.lang.Object):65:65 -> devConsole$default
+    1:38:void devConsole$lambda$4(kotlin.jvm.functions.Function0,android.view.View):74:111 -> devConsole$lambda$4
+    1:1:void devConsole$lambda$4$lambda$1$lambda$0(android.widget.ImageView,android.view.View):95:95 -> devConsole$lambda$4$lambda$1$lambda$0
+    1:1:void devConsole$lambda$4$lambda$2(android.view.View):102:102 -> devConsole$lambda$4$lambda$2
+    1:1:void devConsole$lambda$4$lambda$3(kotlin.jvm.functions.Function0,android.view.View):107:107 -> devConsole$lambda$4$lambda$3
+    1:1:int dpTopX(int):263:263 -> dpTopX
+    2:6:int dpTopX(int):260:264 -> dpTopX
+    1:9:android.widget.ScrollView findScrollView(android.view.View,int,int):119:127 -> findScrollView
+    1:1:int getColor(int):244:244 -> getColor
+    1:2:java.lang.String getCurrentTime():55:56 -> getCurrentTime
+    1:6:boolean isPointInView(android.view.View,int,int):140:145 -> isPointInView
+    1:8:void log(java.lang.Object):157:164 -> log
+    1:4:void softLog(java.lang.String):150:153 -> softLog
+    1:46:void switchMinify(android.widget.ImageView):176:221 -> switchMinify
+    1:3:void switchMinify$lambda$5(android.animation.ValueAnimator):204:206 -> switchMinify$lambda$5
+    1:3:void switchMinify$lambda$6(android.animation.ValueAnimator):210:212 -> switchMinify$lambda$6
+    1:3:void write(java.lang.String):248:250 -> write
+    1:2:void write$lambda$8():251:252 -> write$lambda$8
+    1:2:void write$lambda$8$lambda$7():253:254 -> write$lambda$8$lambda$7
+com.lun.auto.console.NiuDevConsole$Companion$WhenMappings -> com.lun.auto.console.NiuDevConsole$Companion$WhenMappings:
+# {"id":"sourceFile","fileName":"NiuDevConsole.kt"}
+com.lun.auto.console.NiuDevTheme -> com.lun.auto.console.NiuDevTheme:
+# {"id":"sourceFile","fileName":"NiuDevConsole.kt"}
+    1:2:void <clinit>():31:32 -> <clinit>
+    1:1:void <init>(java.lang.String,int):30:30 -> <init>
+com.lun.auto.floating.NiuFlags -> com.lun.auto.floating.NiuFlags:
+# {"id":"sourceFile","fileName":"NiuFloatConfig.kt"}
+    1:3:void <clinit>():47:49 -> <clinit>
+    1:1:void <init>(java.lang.String,int):45:45 -> <init>
+com.lun.auto.floating.NiuFloat -> com.lun.auto.floating.NiuFloat:
+# {"id":"sourceFile","fileName":"NiuFloat.kt"}
+    1:1:void <clinit>():10:10 -> <clinit>
+    1:1:java.util.concurrent.ConcurrentHashMap access$getWindowMap$p():9:9 -> access$getWindowMap$p
+    1:1:kotlin.Unit dismiss(java.lang.String):22:22 -> dismiss
+    1:1:android.view.View getFloatView(java.lang.String):20:20 -> getFloatView
+    1:1:kotlin.Unit hide(java.lang.String):14:14 -> hide
+    1:1:boolean isShow(java.lang.String):18:18 -> isShow
+    1:1:com.lun.auto.floating.NiuFloatingWindowHelper remove(java.lang.String):26:26 -> remove
+    1:1:kotlin.Unit show(java.lang.String):16:16 -> show
+    1:1:kotlin.Unit updateFloat(java.lang.String,int,int):24:24 -> updateFloat
+    1:1:com.lun.auto.floating.NiuFloat$FloatingWindowBuilder with(android.content.Context):12:12 -> with
+com.lun.auto.floating.NiuFloat$FloatingWindowBuilder -> com.lun.auto.floating.NiuFloat$FloatingWindowBuilder:
+# {"id":"sourceFile","fileName":"NiuFloat.kt"}
+    1:2:void <init>(android.content.Context):28:29 -> <init>
+    1:1:com.lun.auto.floating.NiuFloat$FloatingWindowBuilder applyConfig(kotlin.jvm.functions.Function1):58:58 -> applyConfig
+    1:7:void create():96:96 -> create
+    1:1:com.lun.auto.floating.NiuFloat$FloatingWindowBuilder setClickThrough(boolean):62:62 -> setClickThrough
+    1:1:com.lun.auto.floating.NiuFloat$FloatingWindowBuilder setDragEnable(boolean):71:71 -> setDragEnable
+    1:1:com.lun.auto.floating.NiuFloat$FloatingWindowBuilder setDragLayoutId(int):75:75 -> setDragLayoutId
+    1:1:com.lun.auto.floating.NiuFloat$FloatingWindowBuilder setFlags(com.lun.auto.floating.NiuFlags):54:54 -> setFlags
+    1:1:com.lun.auto.floating.NiuFloat$FloatingWindowBuilder setGravity(com.lun.auto.floating.NiuGravity):50:50 -> setGravity
+    1:2:com.lun.auto.floating.NiuFloat$FloatingWindowBuilder setLayout(int,com.lun.auto.floating.NiuOnInvokeView):40:41 -> setLayout
+    3:4:com.lun.auto.floating.NiuFloat$FloatingWindowBuilder setLayout(android.view.View,com.lun.auto.floating.NiuOnInvokeView):45:46 -> setLayout
+    1:1:com.lun.auto.floating.NiuFloat$FloatingWindowBuilder setLayout$default(com.lun.auto.floating.NiuFloat$FloatingWindowBuilder,int,com.lun.auto.floating.NiuOnInvokeView,int,java.lang.Object):39:39 -> setLayout$default
+    2:2:com.lun.auto.floating.NiuFloat$FloatingWindowBuilder setLayout$default(com.lun.auto.floating.NiuFloat$FloatingWindowBuilder,android.view.View,com.lun.auto.floating.NiuOnInvokeView,int,java.lang.Object):44:44 -> setLayout$default
+    1:1:com.lun.auto.floating.NiuFloat$FloatingWindowBuilder setLocation(int,int):36:36 -> setLocation
+    1:2:com.lun.auto.floating.NiuFloat$FloatingWindowBuilder setMatchParent(boolean,boolean):66:67 -> setMatchParent
+    1:1:com.lun.auto.floating.NiuFloat$FloatingWindowBuilder setMatchParent$default(com.lun.auto.floating.NiuFloat$FloatingWindowBuilder,boolean,boolean,int,java.lang.Object):65:65 -> setMatchParent$default
+    1:1:com.lun.auto.floating.NiuFloat$FloatingWindowBuilder setTag(java.lang.String):32:32 -> setTag
+    1:10:void show():81:81 -> show
+com.lun.auto.floating.NiuFloatConfig -> com.lun.auto.floating.NiuFloatConfig:
+# {"id":"sourceFile","fileName":"NiuFloatConfig.kt"}
+    1:27:void <init>(java.lang.Integer,android.view.View,java.lang.String,kotlin.Pair,boolean,com.lun.auto.floating.NiuGravity,com.lun.auto.floating.NiuFlags,boolean,com.lun.auto.floating.NiuOnInvokeView,java.util.List,boolean,boolean,boolean,boolean):5:31 -> <init>
+    28:39:void <init>(java.lang.Integer,android.view.View,java.lang.String,kotlin.Pair,boolean,com.lun.auto.floating.NiuGravity,com.lun.auto.floating.NiuFlags,boolean,com.lun.auto.floating.NiuOnInvokeView,java.util.List,boolean,boolean,boolean,boolean,int,kotlin.jvm.internal.DefaultConstructorMarker):12:23 -> <init>
+    40:40:void <init>(java.lang.Integer,android.view.View,java.lang.String,kotlin.Pair,boolean,com.lun.auto.floating.NiuGravity,com.lun.auto.floating.NiuFlags,boolean,com.lun.auto.floating.NiuOnInvokeView,java.util.List,boolean,boolean,boolean,boolean,int,kotlin.jvm.internal.DefaultConstructorMarker):5:5 -> <init>
+    1:1:boolean getClickThrough():27:27 -> getClickThrough
+    1:1:boolean getDragEnable():25:25 -> getDragEnable
+    1:1:java.util.List getDragLayoutIdList():23:23 -> getDragLayoutIdList
+    1:1:com.lun.auto.floating.NiuFlags getFlags():17:17 -> getFlags
+    1:1:java.lang.String getFloatTag():10:10 -> getFloatTag
+    1:1:com.lun.auto.floating.NiuGravity getGravity():16:16 -> getGravity
+    1:1:boolean getHeightMatch():31:31 -> getHeightMatch
+    1:1:com.lun.auto.floating.NiuOnInvokeView getInvokeView():21:21 -> getInvokeView
+    1:1:java.lang.Integer getLayoutId():7:7 -> getLayoutId
+    1:1:android.view.View getLayoutView():8:8 -> getLayoutView
+    1:1:kotlin.Pair getLocationPair():12:12 -> getLocationPair
+    1:1:boolean getWidthMatch():29:29 -> getWidthMatch
+    1:1:boolean isDrag():19:19 -> isDrag
+    1:1:boolean isShow():14:14 -> isShow
+    1:1:void setClickThrough(boolean):27:27 -> setClickThrough
+    1:1:void setDrag(boolean):19:19 -> setDrag
+    1:1:void setDragEnable(boolean):25:25 -> setDragEnable
+    1:1:void setFlags(com.lun.auto.floating.NiuFlags):17:17 -> setFlags
+    1:1:void setFloatTag(java.lang.String):10:10 -> setFloatTag
+    1:1:void setGravity(com.lun.auto.floating.NiuGravity):16:16 -> setGravity
+    1:1:void setHeightMatch(boolean):31:31 -> setHeightMatch
+    1:1:void setInvokeView(com.lun.auto.floating.NiuOnInvokeView):21:21 -> setInvokeView
+    1:1:void setLayoutId(java.lang.Integer):7:7 -> setLayoutId
+    1:1:void setLayoutView(android.view.View):8:8 -> setLayoutView
+    1:1:void setLocationPair(kotlin.Pair):12:12 -> setLocationPair
+    1:1:void setShow(boolean):14:14 -> setShow
+    1:1:void setWidthMatch(boolean):29:29 -> setWidthMatch
+com.lun.auto.floating.NiuFloatingWindowHelper -> com.lun.auto.floating.NiuFloatingWindowHelper:
+# {"id":"sourceFile","fileName":"NiuFloatingWindowHelper.kt"}
+    1:10:void <init>(android.content.Context,com.lun.auto.floating.NiuFloatConfig):39:48 -> <init>
+    1:1:long access$getLongPressTime$p(com.lun.auto.floating.NiuFloatingWindowHelper):39:39 -> access$getLongPressTime$p
+    1:1:android.widget.FrameLayout access$getParentFrameLayout$p(com.lun.auto.floating.NiuFloatingWindowHelper):39:39 -> access$getParentFrameLayout$p
+    1:8:void createWindow(boolean):55:62 -> createWindow
+    9:41:void createWindow(boolean):60:92 -> createWindow
+    42:49:void createWindow(boolean):88:95 -> createWindow
+    50:109:void createWindow(boolean):65:124 -> createWindow
+    110:110:void createWindow(boolean):61:61 -> createWindow
+    1:1:void createWindow$lambda$1(com.lun.auto.floating.NiuFloatingWindowHelper,android.view.View):103:103 -> createWindow$lambda$1
+    1:1:boolean createWindow$lambda$2(com.lun.auto.floating.NiuFloatingWindowHelper,android.view.View,android.view.MotionEvent):114:114 -> createWindow$lambda$2
+    1:1:boolean createWindow$lambda$3(com.lun.auto.floating.NiuFloatingWindowHelper,android.view.View,android.view.View,android.view.MotionEvent):126:126 -> createWindow$lambda$3
+    1:1:com.lun.auto.floating.NiuFloatConfig getConfig():208:208 -> getConfig
+    1:37:boolean move(android.view.View,android.view.MotionEvent):133:169 -> move
+    38:44:boolean move(android.view.View,android.view.MotionEvent):136:142 -> move
+    1:2:void remove():212:213 -> remove
+    1:3:void remove$lambda$6(com.lun.auto.floating.NiuFloatingWindowHelper):214:216 -> remove$lambda$6
+    1:3:void updateFloat(int,int):178:180 -> updateFloat
+    1:1:void visible(boolean):184:184 -> visible
+    1:19:void visible$lambda$4(com.lun.auto.floating.NiuFloatingWindowHelper,boolean):185:203 -> visible$lambda$4
+com.lun.auto.floating.NiuFloatingWindowHelper$WhenMappings -> com.lun.auto.floating.NiuFloatingWindowHelper$WhenMappings:
+# {"id":"sourceFile","fileName":"NiuFloatingWindowHelper.kt"}
+com.lun.auto.floating.NiuFloatingWindowHelper$move$1 -> com.lun.auto.floating.NiuFloatingWindowHelper$move$1:
+# {"id":"sourceFile","fileName":"NiuFloatingWindowHelper.kt"}
+    1:4:java.lang.Object invokeSuspend(java.lang.Object):142:145 -> invokeSuspend
+com.lun.auto.floating.NiuFloatingWindowHelper$visible$1$1 -> com.lun.auto.floating.NiuFloatingWindowHelper$visible$1$1:
+# {"id":"sourceFile","fileName":"NiuFloatingWindowHelper.kt"}
+    1:1:void <init>(com.lun.auto.floating.NiuFloatingWindowHelper):195:195 -> <init>
+    1:1:void onAnimationEnd(android.animation.Animator):198:198 -> onAnimationEnd
+com.lun.auto.floating.NiuGravity -> com.lun.auto.floating.NiuGravity:
+# {"id":"sourceFile","fileName":"NiuFloatConfig.kt"}
+    1:7:void <clinit>():36:42 -> <clinit>
+    1:1:void <init>(java.lang.String,int):34:34 -> <init>
+com.lun.auto.floating.NiuOnInvokeView -> com.lun.auto.floating.a:
+com.lun.auto.images.NiuImages -> com.lun.auto.images.NiuImages:
+# {"id":"sourceFile","fileName":"NiuImages.kt"}
+com.lun.auto.images.NiuImages$Companion -> com.lun.auto.images.NiuImages$Companion:
+# {"id":"sourceFile","fileName":"NiuImages.kt"}
+    1:3:android.graphics.Bitmap captureScreen(java.lang.String):63:65 -> captureScreen
+    1:1:android.graphics.Bitmap captureScreen$default(com.lun.auto.images.NiuImages$Companion,java.lang.String,int,java.lang.Object):62:62 -> captureScreen$default
+    1:2:void createVirtualDisplay(int,int,android.content.Intent,boolean,boolean,boolean):38:39 -> createVirtualDisplay
+    1:1:void initNotice():22:22 -> initNotice
+    1:4:android.app.Notification initNotice$lambda$0():23:26 -> initNotice$lambda$0
+    1:18:android.graphics.Bitmap loadImage(java.lang.String,boolean):78:95 -> loadImage
+    1:1:android.graphics.Bitmap loadImage$default(com.lun.auto.images.NiuImages$Companion,java.lang.String,boolean,int,java.lang.Object):73:73 -> loadImage$default
+    1:1:kotlinx.coroutines.Job requestCapture():47:47 -> requestCapture
+    1:2:void requestScreenCapture():32:33 -> requestScreenCapture
+    1:1:void stopScreenCapture():44:44 -> stopScreenCapture
+com.lun.auto.images.NiuImages$Companion$requestCapture$1 -> com.lun.auto.images.NiuImages$Companion$requestCapture$1:
+# {"id":"sourceFile","fileName":"NiuImages.kt"}
+    1:14:java.lang.Object invokeSuspend(java.lang.Object):47:60 -> invokeSuspend
+com.lun.auto.images.NotificationHelper -> com.lun.auto.images.a:
+    1:1:void <init>(com.lun.auto.images.NotificationHelper$1):22:22 -> <init>
+    2:3:void <init>():43:44 -> <init>
+    1:5:void createChannel():51:55 -> a
+    6:10:void createChannel(java.lang.String,java.lang.String,int,boolean):68:72 -> a
+    11:17:androidx.core.app.NotificationCompat$Builder create(java.lang.String):82:88 -> a
+    1:1:androidx.core.app.NotificationCompat$Builder createSystem():106:106 -> b
+    1:1:com.lun.auto.images.NotificationHelper getInstance():39:39 -> c
+com.lun.auto.images.NotificationHelper$1 -> com.lun.auto.images.a$a:
+com.lun.auto.images.NotificationHelper$InstanceHolder -> com.lun.auto.images.a$b:
+    com.lun.auto.images.NotificationHelper instance -> a
+    1:1:void <clinit>():35:35 -> <clinit>
+    1:1:com.lun.auto.images.NotificationHelper access$100():34:34 -> a
+com.lun.auto.images.mediaprojection.interfaces.MediaProjectionNotificationEngine -> a.a:
+    android.app.Notification getNotification() -> a
+com.lun.auto.images.mediaprojection.service.MediaProjectionService -> com.lun.auto.images.mediaprojection.service.MediaProjectionService:
+    android.media.projection.MediaProjection mediaProjection -> e
+    android.hardware.display.VirtualDisplay virtualDisplayImageReader -> f
+    android.hardware.display.VirtualDisplay virtualDisplayMediaRecorder -> i
+    boolean isMediaRecording -> l
+    android.util.DisplayMetrics displayMetrics -> a
+    android.media.ImageReader imageReader -> g
+    com.lun.auto.images.mediaprojection.interfaces.MediaProjectionNotificationEngine notificationEngine -> m
+    android.media.MediaRecorder mediaRecorder -> j
+    android.media.projection.MediaProjectionManager mediaProjectionManager -> d
+    boolean isImageAvailable -> h
+    java.io.File mediaFile -> k
+    boolean isScreenCaptureEnable -> b
+    boolean isMediaRecorderEnable -> c
+    1:1:void <init>():34:34 -> <init>
+    1:1:boolean access$002(com.lun.auto.images.mediaprojection.service.MediaProjectionService,boolean):34:34 -> a
+    2:3:void bindService(android.content.Context,android.content.ServiceConnection):72:73 -> a
+    4:23:void createImageReader(boolean):166:185 -> a
+    24:24:void createImageReader(boolean):183:183 -> a
+    25:25:void setNotificationEngine(com.lun.auto.images.mediaprojection.interfaces.MediaProjectionNotificationEngine):242:242 -> a
+    26:50:void createVirtualDisplay(int,android.content.Intent,android.util.DisplayMetrics,boolean,boolean,boolean):255:279 -> a
+    51:86:android.graphics.Bitmap capture():287:322 -> a
+    1:1:void unbindService(android.content.Context,android.content.ServiceConnection):83:83 -> b
+    2:15:void destroy():101:114 -> b
+    1:7:void showNotification():150:156 -> c
+    1:10:void stopImageReader():121:130 -> d
+    1:5:void stopMediaRecorder():138:142 -> e
+    1:31:void stopRecording():360:390 -> f
+    1:1:android.os.IBinder onBind(android.content.Intent):88:88 -> onBind
+    1:2:void onDestroy():93:94 -> onDestroy
+com.lun.auto.images.mediaprojection.service.MediaProjectionService$1 -> com.lun.auto.images.mediaprojection.service.MediaProjectionService$a:
+    com.lun.auto.images.mediaprojection.service.MediaProjectionService this$0 -> a
+    1:1:void <init>(com.lun.auto.images.mediaprojection.service.MediaProjectionService):176:176 -> <init>
+    1:1:void onImageAvailable(android.media.ImageReader):179:179 -> onImageAvailable
+com.lun.auto.images.mediaprojection.service.MediaProjectionService$MediaProjectionBinder -> com.lun.auto.images.mediaprojection.service.MediaProjectionService$b:
+    com.lun.auto.images.mediaprojection.service.MediaProjectionService this$0 -> a
+    1:1:void <init>(com.lun.auto.images.mediaprojection.service.MediaProjectionService):57:57 -> <init>
+    1:1:com.lun.auto.images.mediaprojection.service.MediaProjectionService getService():60:60 -> a
+com.lun.auto.images.mediaprojection.utils.MediaProjectionHelper -> b.a:
+    com.lun.auto.images.mediaprojection.interfaces.MediaProjectionNotificationEngine notificationEngine -> a
+    android.media.projection.MediaProjectionManager mediaProjectionManager -> b
+    android.util.DisplayMetrics displayMetrics -> c
+    com.lun.auto.images.mediaprojection.service.MediaProjectionService mediaProjectionService -> e
+    android.content.ServiceConnection serviceConnection -> d
+    1:1:void <init>(com.lun.auto.images.mediaprojection.utils.MediaProjectionHelper$1):24:24 -> <init>
+    2:2:void <init>():37:37 -> <init>
+    1:1:com.lun.auto.images.mediaprojection.service.MediaProjectionService access$200(com.lun.auto.images.mediaprojection.utils.MediaProjectionHelper):24:24 -> a
+    2:2:com.lun.auto.images.mediaprojection.service.MediaProjectionService access$202(com.lun.auto.images.mediaprojection.utils.MediaProjectionHelper,com.lun.auto.images.mediaprojection.service.MediaProjectionService):24:24 -> a
+    3:3:void setNotificationEngine(com.lun.auto.images.mediaprojection.interfaces.MediaProjectionNotificationEngine):54:54 -> a
+    4:33:void startService(androidx.activity.ComponentActivity):63:92 -> a
+    34:43:void stopService(android.content.Context):101:110 -> a
+    44:54:void createVirtualDisplay(int,int,android.content.Intent,boolean,boolean,boolean):124:134 -> a
+    55:58:android.graphics.Bitmap capture():141:144 -> a
+    59:59:android.graphics.Bitmap capture():142:142 -> a
+    1:1:com.lun.auto.images.mediaprojection.interfaces.MediaProjectionNotificationEngine access$300(com.lun.auto.images.mediaprojection.utils.MediaProjectionHelper):24:24 -> b
+    2:2:com.lun.auto.images.mediaprojection.utils.MediaProjectionHelper getInstance():33:33 -> b
+com.lun.auto.images.mediaprojection.utils.MediaProjectionHelper$1 -> b.a$a:
+    com.lun.auto.images.mediaprojection.utils.MediaProjectionHelper this$0 -> a
+    1:1:void <init>(com.lun.auto.images.mediaprojection.utils.MediaProjectionHelper):78:78 -> <init>
+    1:3:void onServiceConnected(android.content.ComponentName,android.os.IBinder):81:83 -> onServiceConnected
+    1:1:void onServiceDisconnected(android.content.ComponentName):89:89 -> onServiceDisconnected
+com.lun.auto.images.mediaprojection.utils.MediaProjectionHelper$InstanceHolder -> b.a$b:
+    com.lun.auto.images.mediaprojection.utils.MediaProjectionHelper instance -> a
+    1:1:void <clinit>():29:29 -> <clinit>
+    1:1:com.lun.auto.images.mediaprojection.utils.MediaProjectionHelper access$100():28:28 -> a
+com.lun.auto.images.utils.BitmapUtils -> c.a:
+    1:12:boolean saveBitmap(android.graphics.Bitmap,java.io.File):124:135 -> a
+    13:19:boolean saveBitmap(android.graphics.Bitmap,java.io.File):129:135 -> a
+    20:25:boolean saveBitmap(android.graphics.Bitmap,java.io.File):133:138 -> a
+    26:26:boolean saveBitmap(android.graphics.Bitmap,java.lang.String):143:143 -> a
+com.lun.auto.sensor.SensorManagerHelper -> com.lun.auto.sensor.SensorManagerHelper:
+# {"id":"sourceFile","fileName":"SensorManagerHelper.kt"}
+    1:20:void <init>(android.content.Context):9:28 -> <init>
+    1:23:void onSensorChanged(android.hardware.SensorEvent):75:97 -> onSensorChanged
+    1:1:void setOnShakeListener(com.lun.auto.sensor.SensorManagerHelper$OnShakeListener):65:65 -> setOnShakeListener
+    1:3:void start():36:36 -> start
+    7:12:void start():40:45 -> start
+    13:13:void start():44:44 -> start
+    1:1:void stop():55:55 -> stop
+com.lun.auto.sensor.SensorManagerHelper$OnShakeListener -> com.lun.auto.sensor.SensorManagerHelper$OnShakeListener:
+# {"id":"sourceFile","fileName":"SensorManagerHelper.kt"}
+com.lun.auto.service.NiuAccessibilityService -> com.lun.auto.service.NiuAccessibilityService:
+# {"id":"sourceFile","fileName":"NiuAccessibilityService.kt"}
+    1:1:void <clinit>():53:53 -> <clinit>
+    1:1:void <init>():28:28 -> <init>
+    1:1:android.accessibilityservice.AccessibilityService access$getAccessibilityService$cp():28:28 -> access$getAccessibilityService$cp
+    1:1:android.content.pm.ActivityInfo access$getNiuLastActivityInfo$cp():28:28 -> access$getNiuLastActivityInfo$cp
+    1:1:java.lang.String access$getNiuLastClassName$cp():28:28 -> access$getNiuLastClassName$cp
+    1:1:java.lang.String access$getNiuLastPackage$cp():28:28 -> access$getNiuLastPackage$cp
+    1:1:java.util.List access$getOnKeyEventCallbacks$cp():28:28 -> access$getOnKeyEventCallbacks$cp
+    1:1:void access$setAccessibilityService$cp(android.accessibilityservice.AccessibilityService):28:28 -> access$setAccessibilityService$cp
+    1:1:void access$setNiuLastActivityInfo$cp(android.content.pm.ActivityInfo):28:28 -> access$setNiuLastActivityInfo$cp
+    1:1:void access$setNiuLastClassName$cp(java.lang.String):28:28 -> access$setNiuLastClassName$cp
+    1:1:void access$setNiuLastPackage$cp(java.lang.String):28:28 -> access$setNiuLastPackage$cp
+    1:4:void onAccessibilityEvent(android.view.accessibility.AccessibilityEvent):93:96 -> onAccessibilityEvent
+    5:12:void onAccessibilityEvent(android.view.accessibility.AccessibilityEvent):94:101 -> onAccessibilityEvent
+    1:4:void onCreate():67:70 -> onCreate
+    1:4:void onDestroy():74:77 -> onDestroy
+    1:4:boolean onKeyEvent(android.view.KeyEvent):85:88 -> onKeyEvent
+com.lun.auto.service.NiuAccessibilityService$Companion -> com.lun.auto.service.NiuAccessibilityService$Companion:
+# {"id":"sourceFile","fileName":"NiuAccessibilityService.kt"}
+    1:1:void addOnKeyEventCallback(com.lun.auto.service.NiuAccessibilityService$OnKeyEventCallback):57:57 -> addOnKeyEventCallback
+    1:1:android.accessibilityservice.AccessibilityService getAccessibilityService():41:41 -> getAccessibilityService
+    1:1:android.accessibilityservice.AccessibilityService getGestureService():44:44 -> getGestureService
+    1:1:android.content.pm.ActivityInfo getNiuLastActivityInfo():46:46 -> getNiuLastActivityInfo
+    1:1:java.lang.String getNiuLastClassName():50:50 -> getNiuLastClassName
+    1:1:java.lang.String getNiuLastPackage():48:48 -> getNiuLastPackage
+    1:1:void removeOnKeyEventCallback(com.lun.auto.service.NiuAccessibilityService$OnKeyEventCallback):62:62 -> removeOnKeyEventCallback
+    1:1:void setAccessibilityService(android.accessibilityservice.AccessibilityService):41:41 -> setAccessibilityService
+    1:1:void setNiuLastActivityInfo(android.content.pm.ActivityInfo):46:46 -> setNiuLastActivityInfo
+    1:1:void setNiuLastClassName(java.lang.String):50:50 -> setNiuLastClassName
+    1:1:void setNiuLastPackage(java.lang.String):48:48 -> setNiuLastPackage
+com.lun.auto.service.NiuAccessibilityService$OnKeyEventCallback -> com.lun.auto.service.NiuAccessibilityService$OnKeyEventCallback:
+# {"id":"sourceFile","fileName":"NiuAccessibilityService.kt"}
+com.lun.auto.service.NiuForegroundService -> com.lun.auto.service.NiuForegroundService:
+# {"id":"sourceFile","fileName":"NiuForegroundService.kt"}
+    1:28:void <init>():22:49 -> <init>
+    1:1:java.lang.String getChannelId():49:49 -> getChannelId
+    1:16:android.app.Notification getNotification(java.lang.String):67:82 -> getNotification
+    1:2:void onCreate():36:37 -> onCreate
+    1:1:int onStartCommand(android.content.Intent,int,int):85:85 -> onStartCommand
+com.lun.auto.service.NiuForegroundService$Companion -> com.lun.auto.service.NiuForegroundService$Companion:
+# {"id":"sourceFile","fileName":"NiuForegroundService.kt"}
+    1:4:void startNiuForeground(android.app.Application):26:29 -> startNiuForeground
+com.lun.auto.service.NiuForegroundService$channelId$2 -> com.lun.auto.service.NiuForegroundService$channelId$2:
+# {"id":"sourceFile","fileName":"NiuForegroundService.kt"}
+    1:1:java.lang.Object invoke():49:49 -> invoke
+    2:13:java.lang.String invoke():50:61 -> invoke
+com.lun.auto.service.NiuForegroundService$onCreate$1 -> com.lun.auto.service.NiuForegroundService$onCreate$1:
+# {"id":"sourceFile","fileName":"NiuForegroundService.kt"}
+    1:56:java.lang.Object invokeSuspend(java.lang.Object):37:92 -> invokeSuspend
+    57:57:java.lang.Object invokeSuspend(java.lang.Object):39:39 -> invokeSuspend
+    58:65:java.lang.Object invokeSuspend(java.lang.Object):37:44 -> invokeSuspend
+com.lun.auto.service.NiuForegroundService$onCreate$1$invokeSuspend$$inlined$Get$default$1 -> com.lun.auto.service.NiuForegroundService$onCreate$1$invokeSuspend$$inlined$Get$default$1:
+# {"id":"sourceFile","fileName":"NetCoroutine.kt"}
+    1:173:java.lang.Object invokeSuspend(java.lang.Object):26:198 -> invokeSuspend
+    174:174:java.lang.Object invokeSuspend(java.lang.Object):34:34 -> invokeSuspend
+com.lun.auto.utils.NiuAppUtils -> com.lun.auto.utils.NiuAppUtils:
+# {"id":"sourceFile","fileName":"NiuAppUtils.kt"}
+com.lun.auto.utils.NiuAppUtils$Companion -> com.lun.auto.utils.NiuAppUtils$Companion:
+# {"id":"sourceFile","fileName":"NiuAppUtils.kt"}
+    1:16:java.lang.String getPackageName(java.lang.String):26:41 -> getPackageName
+    17:17:java.lang.String getPackageName(java.lang.String):28:28 -> getPackageName
+    18:18:java.lang.String getPackageName(java.lang.String):27:27 -> getPackageName
+    1:4:boolean launch(java.lang.String):12:12 -> launch
+    10:10:boolean launch(java.lang.String):18:18 -> launch
+    1:3:boolean launchApp(java.lang.String):34:36 -> launchApp
+com.lun.auto.utils.NiuDevice -> com.lun.auto.utils.NiuDevice:
+# {"id":"sourceFile","fileName":"NiuDevice.kt"}
+    1:5:void <clinit>():8:12 -> <clinit>
+    1:1:int access$getHeight$cp():6:6 -> access$getHeight$cp
+    1:1:java.lang.String access$getId$cp():6:6 -> access$getId$cp
+    1:1:int access$getWidth$cp():6:6 -> access$getWidth$cp
+com.lun.auto.utils.NiuDevice$Companion -> com.lun.auto.utils.NiuDevice$Companion:
+# {"id":"sourceFile","fileName":"NiuDevice.kt"}
+    1:1:int getHeight():10:10 -> getHeight
+    1:1:java.lang.String getId():12:12 -> getId
+    1:1:int getWidth():8:8 -> getWidth
+com.lun.auto.utils.NiuDialogUtil -> com.lun.auto.utils.NiuDialogUtil:
+# {"id":"sourceFile","fileName":"NiuDialogUtil.kt"}
+com.lun.auto.utils.NiuDialogUtils -> com.lun.auto.utils.NiuDialogUtils:
+# {"id":"sourceFile","fileName":"NiuDialogUtils.kt"}
+com.lun.auto.utils.NiuDialogUtils$Companion -> com.lun.auto.utils.NiuDialogUtils$Companion:
+# {"id":"sourceFile","fileName":"NiuDialogUtils.kt"}
+    1:26:void alert(java.lang.String,android.content.Context,boolean):48:73 -> alert
+    27:27:void alert(java.lang.String,android.content.Context,boolean,kotlin.jvm.functions.Function0):83:83 -> alert
+    1:1:void alert$default(com.lun.auto.utils.NiuDialogUtils$Companion,java.lang.String,android.content.Context,boolean,int,java.lang.Object):47:47 -> alert$default
+    2:2:void alert$default(com.lun.auto.utils.NiuDialogUtils$Companion,java.lang.String,android.content.Context,boolean,kotlin.jvm.functions.Function0,int,java.lang.Object):77:77 -> alert$default
+    1:5:void alert$lambda$5(android.content.Context,boolean,java.lang.String,java.util.concurrent.CountDownLatch):50:54 -> alert$lambda$5
+    6:317:void alert$lambda$5(android.content.Context,boolean,java.lang.String,java.util.concurrent.CountDownLatch):53:364 -> alert$lambda$5
+    1:5:void alert$lambda$9(android.content.Context,boolean,java.lang.String,kotlin.jvm.functions.Function0):84:88 -> alert$lambda$9
+    6:287:void alert$lambda$9(android.content.Context,boolean,java.lang.String,kotlin.jvm.functions.Function0):87:368 -> alert$lambda$9
+    1:1:void alert$lambda$9$lambda$8$lambda$7(kotlin.jvm.functions.Function0,android.content.DialogInterface):100:100 -> alert$lambda$9$lambda$8$lambda$7
+    1:1:int[] dialogCheck(java.lang.String,java.util.List,android.content.Context,boolean,boolean):345:345 -> dialogCheck
+    2:2:void dialogCheck(java.lang.String,java.util.List,android.content.Context,boolean,boolean,kotlin.jvm.functions.Function1):356:356 -> dialogCheck
+    1:1:int[] dialogCheck$default(com.lun.auto.utils.NiuDialogUtils$Companion,java.lang.String,java.util.List,android.content.Context,boolean,boolean,int,java.lang.Object):338:338 -> dialogCheck$default
+    2:2:void dialogCheck$default(com.lun.auto.utils.NiuDialogUtils$Companion,java.lang.String,java.util.List,android.content.Context,boolean,boolean,kotlin.jvm.functions.Function1,int,java.lang.Object):348:348 -> dialogCheck$default
+    1:32:java.lang.CharSequence dialogInput(java.lang.String,android.content.Context,boolean,java.lang.String,java.lang.Integer,java.lang.String):115:146 -> dialogInput
+    33:33:void dialogInput(java.lang.String,android.content.Context,boolean,java.lang.String,java.lang.Integer,java.lang.String,kotlin.jvm.functions.Function1):158:158 -> dialogInput
+    1:1:java.lang.CharSequence dialogInput$default(com.lun.auto.utils.NiuDialogUtils$Companion,java.lang.String,android.content.Context,boolean,java.lang.String,java.lang.Integer,java.lang.String,int,java.lang.Object):107:107 -> dialogInput$default
+    2:2:void dialogInput$default(com.lun.auto.utils.NiuDialogUtils$Companion,java.lang.String,android.content.Context,boolean,java.lang.String,java.lang.Integer,java.lang.String,kotlin.jvm.functions.Function1,int,java.lang.Object):149:149 -> dialogInput$default
+    1:5:void dialogInput$lambda$12(android.content.Context,boolean,java.lang.String,java.lang.String,java.lang.String,java.lang.Integer,kotlin.jvm.internal.Ref$ObjectRef,java.util.concurrent.CountDownLatch):118:122 -> dialogInput$lambda$12
+    6:257:void dialogInput$lambda$12(android.content.Context,boolean,java.lang.String,java.lang.String,java.lang.String,java.lang.Integer,kotlin.jvm.internal.Ref$ObjectRef,java.util.concurrent.CountDownLatch):121:372 -> dialogInput$lambda$12
+    1:5:void dialogInput$lambda$15(android.content.Context,boolean,java.lang.String,java.lang.String,java.lang.String,java.lang.Integer,kotlin.jvm.functions.Function1):159:163 -> dialogInput$lambda$15
+    6:220:void dialogInput$lambda$15(android.content.Context,boolean,java.lang.String,java.lang.String,java.lang.String,java.lang.Integer,kotlin.jvm.functions.Function1):162:376 -> dialogInput$lambda$15
+    1:51:int[] dialogList(com.lun.auto.utils.NiuDialogUtils$Companion$DialogType,java.lang.String,java.util.List,android.content.Context,boolean,boolean):186:236 -> dialogList
+    52:52:void dialogList(com.lun.auto.utils.NiuDialogUtils$Companion$DialogType,java.lang.String,java.util.List,android.content.Context,boolean,boolean,kotlin.jvm.functions.Function1):248:248 -> dialogList
+    1:1:int[] dialogList$default(com.lun.auto.utils.NiuDialogUtils$Companion,com.lun.auto.utils.NiuDialogUtils$Companion$DialogType,java.lang.String,java.util.List,android.content.Context,boolean,boolean,int,java.lang.Object):178:178 -> dialogList$default
+    2:2:void dialogList$default(com.lun.auto.utils.NiuDialogUtils$Companion,com.lun.auto.utils.NiuDialogUtils$Companion$DialogType,java.lang.String,java.util.List,android.content.Context,boolean,boolean,kotlin.jvm.functions.Function1,int,java.lang.Object):239:239 -> dialogList$default
+    1:5:void dialogList$lambda$18(android.content.Context,boolean,java.lang.String,com.lun.auto.utils.NiuDialogUtils$Companion$DialogType,java.util.List,boolean,kotlin.jvm.internal.Ref$ObjectRef,java.util.concurrent.CountDownLatch):189:193 -> dialogList$lambda$18
+    6:31:void dialogList$lambda$18(android.content.Context,boolean,java.lang.String,com.lun.auto.utils.NiuDialogUtils$Companion$DialogType,java.util.List,boolean,kotlin.jvm.internal.Ref$ObjectRef,java.util.concurrent.CountDownLatch):192:217 -> dialogList$lambda$18
+    32:32:void dialogList$lambda$18(android.content.Context,boolean,java.lang.String,com.lun.auto.utils.NiuDialogUtils$Companion$DialogType,java.util.List,boolean,kotlin.jvm.internal.Ref$ObjectRef,java.util.concurrent.CountDownLatch):208:208 -> dialogList$lambda$18
+    33:211:void dialogList$lambda$18(android.content.Context,boolean,java.lang.String,com.lun.auto.utils.NiuDialogUtils$Companion$DialogType,java.util.List,boolean,kotlin.jvm.internal.Ref$ObjectRef,java.util.concurrent.CountDownLatch):202:380 -> dialogList$lambda$18
+    1:5:void dialogList$lambda$21(android.content.Context,boolean,java.lang.String,com.lun.auto.utils.NiuDialogUtils$Companion$DialogType,java.util.List,boolean,kotlin.jvm.functions.Function1):249:253 -> dialogList$lambda$21
+    6:30:void dialogList$lambda$21(android.content.Context,boolean,java.lang.String,com.lun.auto.utils.NiuDialogUtils$Companion$DialogType,java.util.List,boolean,kotlin.jvm.functions.Function1):252:276 -> dialogList$lambda$21
+    31:31:void dialogList$lambda$21(android.content.Context,boolean,java.lang.String,com.lun.auto.utils.NiuDialogUtils$Companion$DialogType,java.util.List,boolean,kotlin.jvm.functions.Function1):268:268 -> dialogList$lambda$21
+    32:153:void dialogList$lambda$21(android.content.Context,boolean,java.lang.String,com.lun.auto.utils.NiuDialogUtils$Companion$DialogType,java.util.List,boolean,kotlin.jvm.functions.Function1):263:384 -> dialogList$lambda$21
+    1:2:java.lang.Integer dialogRadio(java.lang.String,java.util.List,android.content.Context,boolean,boolean):320:321 -> dialogRadio
+    3:3:void dialogRadio(java.lang.String,java.util.List,android.content.Context,boolean,boolean,kotlin.jvm.functions.Function1):332:332 -> dialogRadio
+    1:1:java.lang.Integer dialogRadio$default(com.lun.auto.utils.NiuDialogUtils$Companion,java.lang.String,java.util.List,android.content.Context,boolean,boolean,int,java.lang.Object):313:313 -> dialogRadio$default
+    2:2:void dialogRadio$default(com.lun.auto.utils.NiuDialogUtils$Companion,java.lang.String,java.util.List,android.content.Context,boolean,boolean,kotlin.jvm.functions.Function1,int,java.lang.Object):324:324 -> dialogRadio$default
+    1:2:java.lang.Integer dialogSelect(java.lang.String,java.util.List,android.content.Context,boolean,boolean):295:296 -> dialogSelect
+    3:3:void dialogSelect(java.lang.String,java.util.List,android.content.Context,boolean,boolean,kotlin.jvm.functions.Function1):307:307 -> dialogSelect
+    1:1:java.lang.Integer dialogSelect$default(com.lun.auto.utils.NiuDialogUtils$Companion,java.lang.String,java.util.List,android.content.Context,boolean,boolean,int,java.lang.Object):288:288 -> dialogSelect$default
+    2:2:void dialogSelect$default(com.lun.auto.utils.NiuDialogUtils$Companion,java.lang.String,java.util.List,android.content.Context,boolean,boolean,kotlin.jvm.functions.Function1,int,java.lang.Object):299:299 -> dialogSelect$default
+    1:1:void m2Alert(java.lang.String,android.content.Context,java.lang.String,java.lang.Integer,kotlin.jvm.functions.Function0):27:27 -> m2Alert
+    1:1:void m2Alert$default(com.lun.auto.utils.NiuDialogUtils$Companion,java.lang.String,android.content.Context,java.lang.String,java.lang.Integer,kotlin.jvm.functions.Function0,int,java.lang.Object):26:26 -> m2Alert$default
+    1:14:void m2Alert$lambda$2(java.lang.Integer,android.content.Context,java.lang.String,java.lang.String,kotlin.jvm.functions.Function0):29:42 -> m2Alert$lambda$2
+    1:1:void m2Alert$lambda$2$lambda$0(kotlin.jvm.functions.Function0,android.content.DialogInterface,int):37:37 -> m2Alert$lambda$2$lambda$0
+    1:1:void m2Alert$lambda$2$lambda$1(kotlin.jvm.functions.Function0,android.content.DialogInterface):40:40 -> m2Alert$lambda$2$lambda$1
+com.lun.auto.utils.NiuDialogUtils$Companion$DialogType -> com.lun.auto.utils.NiuDialogUtils$Companion$DialogType:
+# {"id":"sourceFile","fileName":"NiuDialogUtils.kt"}
+    1:1:void <clinit>():23:23 -> <clinit>
+    1:1:void <init>(java.lang.String,int):22:22 -> <init>
+com.lun.auto.utils.NiuDialogUtils$Companion$WhenMappings -> com.lun.auto.utils.NiuDialogUtils$Companion$WhenMappings:
+# {"id":"sourceFile","fileName":"NiuDialogUtils.kt"}
+com.lun.auto.utils.NiuDialogUtils$Companion$alert$1$2$1 -> com.lun.auto.utils.NiuDialogUtils$Companion$alert$1$2$1:
+# {"id":"sourceFile","fileName":"NiuDialogUtils.kt"}
+    1:1:java.lang.Object invoke(java.lang.Object):62:62 -> invoke
+    2:2:void invoke(com.afollestad.materialdialogs.MaterialDialog):63:63 -> invoke
+com.lun.auto.utils.NiuDialogUtils$Companion$alert$1$2$2 -> com.lun.auto.utils.NiuDialogUtils$Companion$alert$1$2$2:
+# {"id":"sourceFile","fileName":"NiuDialogUtils.kt"}
+    1:1:java.lang.Object invoke(java.lang.Object):65:65 -> invoke
+    2:2:void invoke(com.afollestad.materialdialogs.MaterialDialog):66:66 -> invoke
+com.lun.auto.utils.NiuDialogUtils$Companion$alert$2$2$1 -> com.lun.auto.utils.NiuDialogUtils$Companion$alert$2$2$1:
+# {"id":"sourceFile","fileName":"NiuDialogUtils.kt"}
+    1:1:java.lang.Object invoke(java.lang.Object):96:96 -> invoke
+    2:2:void invoke(com.afollestad.materialdialogs.MaterialDialog):97:97 -> invoke
+com.lun.auto.utils.NiuDialogUtils$Companion$dialogCheck$1 -> com.lun.auto.utils.NiuDialogUtils$Companion$dialogCheck$1:
+# {"id":"sourceFile","fileName":"NiuDialogUtils.kt"}
+    1:1:java.lang.Object invoke(java.lang.Object):356:356 -> invoke
+    2:2:void invoke(int[]):357:357 -> invoke
+com.lun.auto.utils.NiuDialogUtils$Companion$dialogInput$1$2$1 -> com.lun.auto.utils.NiuDialogUtils$Companion$dialogInput$1$2$1:
+# {"id":"sourceFile","fileName":"NiuDialogUtils.kt"}
+    1:1:java.lang.Object invoke(java.lang.Object):131:131 -> invoke
+    2:2:void invoke(com.afollestad.materialdialogs.MaterialDialog):132:132 -> invoke
+com.lun.auto.utils.NiuDialogUtils$Companion$dialogInput$1$2$2 -> com.lun.auto.utils.NiuDialogUtils$Companion$dialogInput$1$2$2:
+# {"id":"sourceFile","fileName":"NiuDialogUtils.kt"}
+    1:1:java.lang.Object invoke(java.lang.Object):134:134 -> invoke
+    2:2:void invoke(com.afollestad.materialdialogs.MaterialDialog):135:135 -> invoke
+com.lun.auto.utils.NiuDialogUtils$Companion$dialogInput$1$2$input$1 -> com.lun.auto.utils.NiuDialogUtils$Companion$dialogInput$1$2$input$1:
+# {"id":"sourceFile","fileName":"NiuDialogUtils.kt"}
+    1:1:java.lang.Object invoke(java.lang.Object,java.lang.Object):128:128 -> invoke
+    2:2:void invoke(com.afollestad.materialdialogs.MaterialDialog,java.lang.CharSequence):129:129 -> invoke
+com.lun.auto.utils.NiuDialogUtils$Companion$dialogInput$2$2$input$1 -> com.lun.auto.utils.NiuDialogUtils$Companion$dialogInput$2$2$input$1:
+# {"id":"sourceFile","fileName":"NiuDialogUtils.kt"}
+    1:1:java.lang.Object invoke(java.lang.Object,java.lang.Object):169:169 -> invoke
+    2:2:void invoke(com.afollestad.materialdialogs.MaterialDialog,java.lang.CharSequence):170:170 -> invoke
+com.lun.auto.utils.NiuDialogUtils$Companion$dialogList$1$2$1 -> com.lun.auto.utils.NiuDialogUtils$Companion$dialogList$1$2$1:
+# {"id":"sourceFile","fileName":"NiuDialogUtils.kt"}
+    1:1:java.lang.Object invoke(java.lang.Object):226:226 -> invoke
+    2:2:void invoke(com.afollestad.materialdialogs.MaterialDialog):227:227 -> invoke
+com.lun.auto.utils.NiuDialogUtils$Companion$dialogList$1$2$selectedIndex$1 -> com.lun.auto.utils.NiuDialogUtils$Companion$dialogList$1$2$selectedIndex$1:
+# {"id":"sourceFile","fileName":"NiuDialogUtils.kt"}
+    1:1:java.lang.Object invoke(java.lang.Object,java.lang.Object,java.lang.Object):202:202 -> invoke
+    2:3:void invoke(com.afollestad.materialdialogs.MaterialDialog,int[],java.util.List):203:204 -> invoke
+com.lun.auto.utils.NiuDialogUtils$Companion$dialogList$1$2$selectedIndex$2 -> com.lun.auto.utils.NiuDialogUtils$Companion$dialogList$1$2$selectedIndex$2:
+# {"id":"sourceFile","fileName":"NiuDialogUtils.kt"}
+    1:1:java.lang.Object invoke(java.lang.Object,java.lang.Object,java.lang.Object):208:208 -> invoke
+    2:3:void invoke(com.afollestad.materialdialogs.MaterialDialog,int,java.lang.CharSequence):212:213 -> invoke
+com.lun.auto.utils.NiuDialogUtils$Companion$dialogList$1$2$selectedIndex$3 -> com.lun.auto.utils.NiuDialogUtils$Companion$dialogList$1$2$selectedIndex$3:
+# {"id":"sourceFile","fileName":"NiuDialogUtils.kt"}
+    1:1:java.lang.Object invoke(java.lang.Object,java.lang.Object,java.lang.Object):217:217 -> invoke
+    2:3:void invoke(com.afollestad.materialdialogs.MaterialDialog,int,java.lang.CharSequence):218:219 -> invoke
+com.lun.auto.utils.NiuDialogUtils$Companion$dialogList$2$2$selectedIndex$1 -> com.lun.auto.utils.NiuDialogUtils$Companion$dialogList$2$2$selectedIndex$1:
+# {"id":"sourceFile","fileName":"NiuDialogUtils.kt"}
+    1:1:java.lang.Object invoke(java.lang.Object,java.lang.Object,java.lang.Object):263:263 -> invoke
+    2:2:void invoke(com.afollestad.materialdialogs.MaterialDialog,int[],java.util.List):264:264 -> invoke
+com.lun.auto.utils.NiuDialogUtils$Companion$dialogList$2$2$selectedIndex$2 -> com.lun.auto.utils.NiuDialogUtils$Companion$dialogList$2$2$selectedIndex$2:
+# {"id":"sourceFile","fileName":"NiuDialogUtils.kt"}
+    1:1:java.lang.Object invoke(java.lang.Object,java.lang.Object,java.lang.Object):268:268 -> invoke
+    2:2:void invoke(com.afollestad.materialdialogs.MaterialDialog,int,java.lang.CharSequence):272:272 -> invoke
+com.lun.auto.utils.NiuDialogUtils$Companion$dialogList$2$2$selectedIndex$3 -> com.lun.auto.utils.NiuDialogUtils$Companion$dialogList$2$2$selectedIndex$3:
+# {"id":"sourceFile","fileName":"NiuDialogUtils.kt"}
+    1:1:java.lang.Object invoke(java.lang.Object,java.lang.Object,java.lang.Object):276:276 -> invoke
+    2:2:void invoke(com.afollestad.materialdialogs.MaterialDialog,int,java.lang.CharSequence):277:277 -> invoke
+com.lun.auto.utils.NiuDialogUtils$Companion$dialogRadio$1 -> com.lun.auto.utils.NiuDialogUtils$Companion$dialogRadio$1:
+# {"id":"sourceFile","fileName":"NiuDialogUtils.kt"}
+    1:1:java.lang.Object invoke(java.lang.Object):332:332 -> invoke
+    2:2:void invoke(int[]):333:333 -> invoke
+com.lun.auto.utils.NiuDialogUtils$Companion$dialogSelect$1 -> com.lun.auto.utils.NiuDialogUtils$Companion$dialogSelect$1:
+# {"id":"sourceFile","fileName":"NiuDialogUtils.kt"}
+    1:1:java.lang.Object invoke(java.lang.Object):307:307 -> invoke
+    2:2:void invoke(int[]):308:308 -> invoke
+com.lun.auto.utils.NiuDrawUtils -> com.lun.auto.utils.NiuDrawUtils:
+# {"id":"sourceFile","fileName":"NiuDrawUtils.kt"}
+    1:11:void <init>():13:23 -> <init>
+    1:15:void _init_$lambda$0(com.lun.auto.utils.NiuDrawUtils):24:38 -> _init_$lambda$0
+    16:30:void _init_$lambda$0(com.lun.auto.utils.NiuDrawUtils):35:49 -> _init_$lambda$0
+    1:1:android.graphics.Paint access$getPaint$p(com.lun.auto.utils.NiuDrawUtils):13:13 -> access$getPaint$p
+    1:1:android.graphics.Rect access$getRect$p(com.lun.auto.utils.NiuDrawUtils):13:13 -> access$getRect$p
+    1:2:void drawBox(android.graphics.Rect):59:60 -> drawBox
+    1:1:void drawBox$lambda$1(com.lun.auto.utils.NiuDrawUtils):61:61 -> drawBox$lambda$1
+    1:3:void endDrawing():70:72 -> endDrawing
+com.lun.auto.utils.NiuDrawUtils$1$1 -> com.lun.auto.utils.NiuDrawUtils$1$1:
+# {"id":"sourceFile","fileName":"NiuDrawUtils.kt"}
+    1:1:void <init>(com.lun.auto.utils.NiuDrawUtils,android.app.Application):24:24 -> <init>
+    1:6:void onDraw(android.graphics.Canvas):26:31 -> onDraw
+com.lun.auto.utils.NiuFilesUtils -> com.lun.auto.utils.NiuFilesUtils:
+# {"id":"sourceFile","fileName":"NiuFilesUtils.kt"}
+com.lun.auto.utils.NiuFilesUtils$Companion -> com.lun.auto.utils.NiuFilesUtils$Companion:
+# {"id":"sourceFile","fileName":"NiuFilesUtils.kt"}
+    1:4:void appendFile(java.lang.String,java.lang.String):47:50 -> appendFile
+    5:5:void appendFile(java.lang.String,java.lang.String):48:48 -> appendFile
+    1:15:boolean copyFile(java.lang.String,java.lang.String):120:134 -> copyFile
+    1:7:boolean createFileWithDirs(java.lang.String):55:61 -> createFileWithDirs
+    1:1:java.lang.String cwd(android.content.Context):141:141 -> cwd
+    1:2:boolean fileExists(java.lang.String):41:42 -> fileExists
+    1:9:boolean moveFile(java.lang.String,java.lang.String):106:114 -> moveFile
+    1:7:java.lang.String readFile(java.lang.String):28:34 -> readFile
+    1:3:boolean removeFile(java.lang.String):71:73 -> removeFile
+    1:6:boolean removeFileDir(java.lang.String):81:86 -> removeFileDir
+    1:6:void write(java.lang.String,java.lang.String):11:16 -> write
+    1:3:boolean writeBytesToFile(java.lang.String,byte[]):96:98 -> writeBytesToFile
+    1:5:void writeFile(java.lang.String,java.lang.String):20:24 -> writeFile
+com.lun.auto.utils.NiuHttpUtils -> com.lun.auto.utils.NiuHttpUtils:
+# {"id":"sourceFile","fileName":"NiuHttpUtils.kt"}
+com.lun.auto.utils.NiuHttpUtils$Companion -> com.lun.auto.utils.NiuHttpUtils$Companion:
+# {"id":"sourceFile","fileName":"NiuHttpUtils.kt"}
+    1:19:java.lang.Object upQrcode(java.lang.String,java.lang.String,android.graphics.Bitmap,kotlin.coroutines.Continuation):16:34 -> upQrcode
+com.lun.auto.utils.NiuHttpUtils$Companion$upQrcode$1 -> com.lun.auto.utils.NiuHttpUtils$Companion$upQrcode$1:
+# {"id":"sourceFile","fileName":"NiuHttpUtils.kt"}
+com.lun.auto.utils.NiuHttpUtils$Companion$upQrcode$2 -> com.lun.auto.utils.NiuHttpUtils$Companion$upQrcode$2:
+# {"id":"sourceFile","fileName":"NiuHttpUtils.kt"}
+    1:9:java.lang.Object invokeSuspend(java.lang.Object):18:26 -> invokeSuspend
+    10:27:java.lang.Object invokeSuspend(java.lang.Object):25:42 -> invokeSuspend
+    28:28:java.lang.Object invokeSuspend(java.lang.Object):32:32 -> invokeSuspend
+    29:32:java.lang.Object invokeSuspend(java.lang.Object):30:33 -> invokeSuspend
+com.lun.auto.utils.NiuHttpUtils$Companion$upQrcode$2$1 -> com.lun.auto.utils.NiuHttpUtils$Companion$upQrcode$2$1:
+# {"id":"sourceFile","fileName":"NiuHttpUtils.kt"}
+    1:1:java.lang.Object invoke(java.lang.Object):30:30 -> invoke
+    2:2:void invoke(com.drake.net.request.BodyRequest):31:31 -> invoke
+com.lun.auto.utils.NiuHttpUtils$Companion$upQrcode$2$invokeSuspend$$inlined$Post$default$1 -> com.lun.auto.utils.NiuHttpUtils$Companion$upQrcode$2$invokeSuspend$$inlined$Post$default$1:
+# {"id":"sourceFile","fileName":"NetCoroutine.kt"}
+    1:151:java.lang.Object invokeSuspend(java.lang.Object):48:198 -> invokeSuspend
+    152:152:java.lang.Object invokeSuspend(java.lang.Object):56:56 -> invokeSuspend
+com.lun.auto.utils.NiuLogUtils -> com.lun.auto.utils.a:
+    1:23:void initLog(android.content.Context):25:47 -> a
+com.lun.auto.utils.NiuLogUtils$1 -> com.lun.auto.utils.a$a:
+    1:1:void <init>():36:36 -> <init>
+    1:1:java.lang.String generateFileName(int,long):40:40 -> generateFileName
+com.lun.auto.utils.NiuPermissionsUtils -> com.lun.auto.utils.NiuPermissionsUtils:
+# {"id":"sourceFile","fileName":"NiuPermissionsUtils.kt"}
+    1:1:void <init>(android.app.Activity):10:10 -> <init>
+    1:1:android.app.Activity access$getActivity$p(com.lun.auto.utils.NiuPermissionsUtils):10:10 -> access$getActivity$p
+    1:4:void authority():25:28 -> authority
+    1:2:void setOnPermissionChangeListener(com.lun.auto.utils.NiuPermissionsUtils$OnPermissionChangeListener):20:21 -> setOnPermissionChangeListener
+com.lun.auto.utils.NiuPermissionsUtils$OnPermissionChangeListener -> com.lun.auto.utils.NiuPermissionsUtils$OnPermissionChangeListener:
+# {"id":"sourceFile","fileName":"NiuPermissionsUtils.kt"}
+com.lun.auto.utils.NiuPermissionsUtils$authority$1 -> com.lun.auto.utils.NiuPermissionsUtils$authority$1:
+# {"id":"sourceFile","fileName":"NiuPermissionsUtils.kt"}
+    1:1:java.lang.Object invoke():28:28 -> invoke
+    2:7:void invoke():30:35 -> invoke
+com.lun.auto.utils.NiuPermissionsUtils$authority$1$1 -> com.lun.auto.utils.NiuPermissionsUtils$authority$1$1:
+# {"id":"sourceFile","fileName":"NiuPermissionsUtils.kt"}
+    1:1:void <init>(com.lun.auto.utils.NiuPermissionsUtils):35:35 -> <init>
+    1:7:void onDenied(java.util.List,boolean):46:52 -> onDenied
+    1:4:void onGranted(java.util.List,boolean):38:41 -> onGranted
+com.lun.auto.utils.NiuToastUtils -> com.lun.auto.utils.NiuToastUtils:
+# {"id":"sourceFile","fileName":"NiuToastUtils.kt"}
+com.lun.auto.utils.NiuToastUtils$Companion -> com.lun.auto.utils.NiuToastUtils$Companion:
+# {"id":"sourceFile","fileName":"NiuToastUtils.kt"}
+    1:4:void eToast(java.lang.String):30:33 -> eToast
+    1:4:void iToast(java.lang.String):23:26 -> iToast
+    1:1:void initToaster(android.app.Application):17:17 -> initToaster
+    1:4:void sToast(java.lang.String):37:40 -> sToast
+    1:1:void toast(java.lang.String):20:20 -> toast
+    1:8:void veToast(java.lang.String,android.app.Activity,int):61:68 -> veToast
+    9:9:void veToast(java.lang.String,android.app.Activity,int):67:67 -> veToast
+    10:10:void veToast(java.lang.String,android.app.Activity,int):61:61 -> veToast
+    1:1:void veToast$default(com.lun.auto.utils.NiuToastUtils$Companion,java.lang.String,android.app.Activity,int,int,java.lang.Object):61:61 -> veToast$default
+    1:8:void viToast(java.lang.String,android.app.Activity,int):72:79 -> viToast
+    9:9:void viToast(java.lang.String,android.app.Activity,int):78:78 -> viToast
+    10:10:void viToast(java.lang.String,android.app.Activity,int):72:72 -> viToast
+    1:1:void viToast$default(com.lun.auto.utils.NiuToastUtils$Companion,java.lang.String,android.app.Activity,int,int,java.lang.Object):72:72 -> viToast$default
+    1:8:void vsToast(java.lang.String,android.app.Activity,int):50:57 -> vsToast
+    9:9:void vsToast(java.lang.String,android.app.Activity,int):56:56 -> vsToast
+    10:10:void vsToast(java.lang.String,android.app.Activity,int):50:50 -> vsToast
+    1:1:void vsToast$default(com.lun.auto.utils.NiuToastUtils$Companion,java.lang.String,android.app.Activity,int,int,java.lang.Object):50:50 -> vsToast$default
+    1:8:void vwToast(java.lang.String,android.app.Activity,int):83:90 -> vwToast
+    9:9:void vwToast(java.lang.String,android.app.Activity,int):89:89 -> vwToast
+    10:10:void vwToast(java.lang.String,android.app.Activity,int):83:83 -> vwToast
+    1:1:void vwToast$default(com.lun.auto.utils.NiuToastUtils$Companion,java.lang.String,android.app.Activity,int,int,java.lang.Object):83:83 -> vwToast$default
+    1:4:void wToast(java.lang.String):44:47 -> wToast

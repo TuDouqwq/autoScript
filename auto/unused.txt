@@ -1,0 +1,62 @@
+com.lun.auto.BuildConfig
+com.lun.auto.images.NotificationHelper$InstanceHolder:
+    private void <init>()
+com.lun.auto.images.NotificationHelper:
+    private static final java.lang.String CHANNEL_ID_OTHER
+    private static final java.lang.String CHANNEL_ID_SYSTEM
+    private static final int CHANNEL_IMPORTANCE_OTHER
+    private static final int CHANNEL_IMPORTANCE_SYSTEM
+    private static final java.lang.String CHANNEL_NAME_OTHER
+    private static final java.lang.String CHANNEL_NAME_SYSTEM
+    public androidx.core.app.NotificationCompat$Builder createOther()
+    public void show(int,android.app.Notification)
+com.lun.auto.images.mediaprojection.interfaces.MediaRecorderCallback:
+    public void <init>()
+com.lun.auto.images.mediaprojection.service.MediaProjectionService$2
+com.lun.auto.images.mediaprojection.service.MediaProjectionService:
+    private static final int ID_MEDIA_PROJECTION
+    static synthetic com.lun.auto.images.mediaprojection.interfaces.MediaRecorderCallback access$100(com.lun.auto.images.mediaprojection.service.MediaProjectionService)
+    private void createMediaRecorder()
+    public void startRecording(com.lun.auto.images.mediaprojection.interfaces.MediaRecorderCallback)
+com.lun.auto.images.mediaprojection.utils.FileUtils
+com.lun.auto.images.mediaprojection.utils.MediaProjectionHelper$InstanceHolder:
+    private void <init>()
+com.lun.auto.images.mediaprojection.utils.MediaProjectionHelper:
+    public static final int REQUEST_CODE
+    public void startMediaRecorder(com.lun.auto.images.mediaprojection.interfaces.MediaRecorderCallback)
+    public void stopMediaRecorder()
+com.lun.auto.images.utils.Base64Utils$Coder
+com.lun.auto.images.utils.Base64Utils$Decoder
+com.lun.auto.images.utils.Base64Utils$Encoder
+com.lun.auto.images.utils.Base64Utils
+com.lun.auto.images.utils.BitmapUtils:
+    public static byte[] bitmapToByte(android.graphics.Bitmap)
+    public static android.graphics.drawable.Drawable bitmapToDrawable(android.graphics.Bitmap)
+    public static java.lang.String bitmapToString(android.graphics.Bitmap)
+    public static android.content.Intent buildImageCaptureIntent(android.net.Uri)
+    public static android.content.Intent buildImageCropIntent(android.net.Uri,android.net.Uri,int,int,int,int,boolean)
+    public static android.content.Intent buildImageCropIntent(android.net.Uri,android.net.Uri,int,int,boolean)
+    public static android.content.Intent buildImageGetIntent(android.net.Uri,int,int,int,int,boolean)
+    public static android.content.Intent buildImageGetIntent(android.net.Uri,int,int,boolean)
+    public static android.graphics.Bitmap byteToBitmap(byte[])
+    public static int calculateInSampleSize(android.graphics.BitmapFactory$Options,int,int)
+    public byte[] compressBitmapQuikly(java.lang.String)
+    public byte[] compressBitmapQuiklySmallTo(java.lang.String,int)
+    public byte[] compressBitmapSmallTo(java.lang.String,int,int,int)
+    public byte[] compressBitmapToBytes(java.lang.String,int,int,int)
+    public static android.graphics.Bitmap createBitmapThumbnail(android.graphics.Bitmap,boolean,int,int)
+    public static android.graphics.Bitmap drawableToBitmap(android.graphics.drawable.Drawable)
+    public static android.graphics.Bitmap getSmallBitmap(java.lang.String,int,int)
+    public static android.graphics.Bitmap scaleImage(android.graphics.Bitmap,float,float)
+    public static android.graphics.Bitmap scaleImageTo(android.graphics.Bitmap,int,int)
+    public static android.graphics.Bitmap toRoundCorner(android.graphics.Bitmap)
+com.lun.auto.utils.NiuLogUtils:
+    public void <init>()
+com.lun.auto.utils.NiuShellUtils$CommandResult
+com.lun.auto.utils.NiuShellUtils
+com.lun.auto.images.mediaprojection.interfaces.MediaRecorderCallback
+com.lun.auto.images.mediaprojection.service.MediaProjectionService:
+    public com.lun.auto.images.mediaprojection.interfaces.MediaRecorderCallback mediaRecorderCallback
+com.lun.auto.images.utils.BitmapUtils:
+    public static final java.lang.String TAG
+    public void <init>()
